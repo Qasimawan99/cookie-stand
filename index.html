@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cookie-stand </title>
+    <link rel="stylesheet" href="style.css"/> 
+</head>
+<body>
+    <div id="container">
+    <table id="store-table"></table>
+  </div>
+<div class="form-container">
+<form id="new-store-form">
+    <fieldset>
+      <legend>Enter New CookieStand:</legend>
+      <label for="nameInput">Name:</label>
+      <input type="text" id="nameInput" name="storeName" />
+  
+      <label for="maxCustomersPerHour">Max Customers</label>
+      <input type="number" id="maxCustomersPerHour" name="maxCust" />
+      
+      <label for="minCustomersPerHour">Min Customers</label>
+      <input type="number" id="minCustomersPerHour" name="minCust" />
+
+      <label for="avgCookiesPerHour">Avg Customers</label>
+      <input type="number" id="avgCookiesPerHour" name="avgCookies" />
+
+      <button id="submit-button" type="submit">SUBMIT</button>
+    </fieldset>
+  </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
